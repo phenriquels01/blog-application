@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a New Post</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="/styles/styles.css">
+</head>
+<body>
+    <%- include('partials/header') %>
+    <%- include('partials/navbar') %>   
+    <main class="mb-4">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-md-10 col-lg-8 col-xl-7">
+                    <p>Feel free to share your thoughts!</p>
+                    <div class="my-5">
+                        <form action="/new-post" method="POST">
+                            <div class="form-floating">
+                                <input class="form-control" id="topic" name="topic" type="text" placeholder="Enter the topic..." autocomplete="off" required />
+                                <label for="topic">Topic</label>
+                            </div>
+                            <div class="form-floating">
+                                <input class="form-control" id="title" name="title" type="text" placeholder="Enter the title of your post..." autocomplete="off" required />
+                                <label for="title">Title</label>
+                            </div>
+                            <div class="form-floating">
+                                <input class="form-control" id="name" name="name" type="text" placeholder="Enter your name..." autocomplete="off" required />
+                                <label for="name">Name</label>
+                            </div>
+                            <div class="form-floating">
+                                <textarea class="form-control" id="content" name="content" placeholder="Enter your content here..." style="height: 18rem" autocomplete="off" required></textarea>
+                                <label for="content">Content</label>
+                            </div>
+                            <br />
+                            <button class="btn btn-primary text-uppercase" id="submitButton" type="submit">Create Post</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <%- include('partials/footer') %>
+    <script src="/js/scripts.js"></script>
+</body>
+</html>
