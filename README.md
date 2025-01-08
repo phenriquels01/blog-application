@@ -29,4 +29,4 @@ The goal of the project is to create a blog web application using NodeJS, Expres
 
 ### Credits
 
-This project is a part of the [The Complete 2023 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/) by Angela Yu.
+This project is a part of the [The Complete 2024 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/) by Angela Yu.
