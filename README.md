@@ -24,7 +24,3 @@ The goal of the project is to create a blog web application using NodeJS, Expres
 1. **NodeJS and ExpressJS:** The application will be a web server built using NodeJS and ExpressJS. ExpressJS will handle routing and middleware
 2. **EJS:** EJS will be used as templating engine to generate dynamic HTML based on the application’s state.
 3. **Bootstrap:** Blog Template is the style to be used for responsive approach.
-
-### Credits
-
-This project is a part of the [The Complete 2024 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/) by Angela Yu.
