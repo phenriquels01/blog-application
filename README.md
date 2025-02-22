@@ -1,10 +1,10 @@
 # Blog Application
 
-## Project Description
+## 🎯 Project Description
 
 The goal of the project is to create a blog web application using NodeJS, ExpressJS and EJS. The application will allow users to create and view blog posts. The data should persist by using a NoSQL database and saving to a JSON file.
 
-## Deliverables
+## 📦 Deliverables
 
 - One Node project for the function of the website
 - At least one EJS file for the structure of the website
@@ -24,3 +24,40 @@ The goal of the project is to create a blog web application using NodeJS, Expres
 1. **NodeJS and ExpressJS:** The application will be a web server built using NodeJS and ExpressJS. ExpressJS will handle routing and middleware
 2. **EJS:** EJS will be used as templating engine to generate dynamic HTML based on the application’s state.
 3. **Bootstrap:** Blog Template is the style to be used for responsive approach.
+
+## ⚙️ Environment Configuration
+
+### 1. Clone or Download this Repository
+
+   ```bash
+   git clone https://github.com/phenriquels01/blog-application.git
+   cd blog-application
+   ```
+
+### 2. Install Dependencies
+
+In the project root, execute:
+
+```bash
+npm install
+```
+
+*Development tip:*
+
+```bash
+npm install -g nodemon
+```
+
+### 3. Run the Application
+
+Start the server:
+
+```bash
+nodemon index.js
+```
+or
+
+```bash
+node index.js
+
+
