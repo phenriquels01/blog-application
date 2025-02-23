@@ -2,7 +2,7 @@
 
 ## 🎯 Project Description
 
-The goal of the project is to create a blog web application using NodeJS, ExpressJS and EJS. The application will allow users to create and view blog posts. The data should persist by using a NoSQL database and saving to a JSON file.
+The goal of this project is to create a blog web application using Node.js, Express.js, and EJS. The application will allow users to create and view blog posts. Since we are not using a database in this project, the data will not persist.
 
 ## 📦 Deliverables
 
