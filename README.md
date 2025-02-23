@@ -1,6 +1,6 @@
 # Blog Application
 
-This is a Capstone Project for the course [The Complete 2023 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/).
+This is a Capstone Project for the course [The Complete 2024 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/).
 
 ## Project Description
 
