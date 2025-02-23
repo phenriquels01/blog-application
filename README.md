@@ -19,7 +19,7 @@ The goal of the project is to create a blog web application using NodeJS, Expres
 5. **Post Delete:** Users should be able to delete their posts.
 6. **Styling:** The application should be we well-styled and responsive, ensuring a good user experience on both desktop and mobile devices.
 
-## 🛠️ Technical Requirements
+## 🛠️ Technologies Used
 
 1. **NodeJS and ExpressJS:** The application will be a web server built using NodeJS and ExpressJS. ExpressJS will handle routing and middleware
 2. **EJS:** EJS will be used as templating engine to generate dynamic HTML based on the application’s state.
