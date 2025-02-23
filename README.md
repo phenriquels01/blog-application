@@ -1,15 +1,18 @@
 # Blog Application
 
 ## 🎯 Project Description
+## 🎯 Project Description
 
 The goal of the project is to create a blog web application using NodeJS, ExpressJS and EJS. The application will allow users to create and view blog posts. The data should persist by using a NoSQL database and saving to a JSON file.
 
+## 📦 Deliverables
 ## 📦 Deliverables
 
 - One Node project for the function of the website
 - At least one EJS file for the structure of the website
 - At least one CSS file for the styling of the website
 
+## 🚀 Features
 ## 🚀 Features
 
 1. **Post Creation:** Users should be able to create new posts.
@@ -19,6 +22,7 @@ The goal of the project is to create a blog web application using NodeJS, Expres
 5. **Post Delete:** Users should be able to delete their posts.
 6. **Styling:** The application should be we well-styled and responsive, ensuring a good user experience on both desktop and mobile devices.
 
+## 🛠️ Technologies Used
 ## 🛠️ Technologies Used
 
 1. **NodeJS and ExpressJS:** The application will be a web server built using NodeJS and ExpressJS. ExpressJS will handle routing and middleware
